@@ -13,13 +13,13 @@
 #define RAISE     2
 
 / {
+    &mt 
+    {
+        flavor = "tap-preferred";
+    };
+
     keymap 
     {
-        &mt 
-        {
-            flavor = "tap-preferred";
-        };
-
         compatible = "zmk,keymap";
         base_layer // BASE
         {
