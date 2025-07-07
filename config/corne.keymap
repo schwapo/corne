@@ -13,11 +13,6 @@
 #define RAISE     2
 
 / {
-    &mt 
-    {
-        flavor = "tap-preferred";
-    };
-
     keymap 
     {
         compatible = "zmk,keymap";
